@@ -19,3 +19,11 @@
   width: 100%;
   padding: 20px;
 }
+
+.modal-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #9b9a9a;
+  font-family: 'Courier-New', Courier, monospace;
+}
