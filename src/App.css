@@ -27,3 +27,7 @@
   border-bottom: 1px solid #9b9a9a;
   font-family: 'Courier-New', Courier, monospace;
 }
+
+.modal-content {
+  padding: 15px;
+}
