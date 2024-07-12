@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <button onClick={() => setIsModalOpen(true)}>Open Modal</button>
-      {isModalOpen && <Modal isOpen={isModalOpen} />}
+      {isModalOpen && <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />}
     </>
   )
 }
